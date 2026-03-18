@@ -3,7 +3,7 @@ on: push
 jobs:
   qa:
     name: Check tests
-    runs_on: Ubuntu-24.24
+    runs_on: ubuntu-24.24
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
